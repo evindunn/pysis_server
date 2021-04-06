@@ -1,0 +1,15 @@
+name: pysis_server
+channels:
+  - usgs-astrogeology
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.6
+  - pip
+  - isis>=4.3.0
+  - pysis>=0.6.4
+  - pip:
+      - grpcio>=1.36.1
+      - grpcio-tools>=1.36.1
+      - protobuf>=3.15.7
+      - python-dotenv
